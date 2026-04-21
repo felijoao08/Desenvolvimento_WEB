@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > div {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;   
+}
+.container > div:hover{
+    height: 210px;
+    width: 210px;
+    transition-duration: 1s;
+    background-color: white;
+    border: 1px solid rgba(207, 207, 207, 0.637);
+}
+.a {
+    background-color: rgb(240, 91, 91);    
+}
+.b {
+    background-color: rgb(107, 214, 107);
+}
+.c {
+    background-color: rgb(91, 91, 228);
+}
